@@ -1,6 +1,7 @@
 var metalsmith   = require("metalsmith");
 var assets       = require("metalsmith-assets");
 var layouts      = require("metalsmith-layouts");
+var inplace      = require("metalsmith-in-place");
 var prefix       = require("metalsmith-autoprefixer");
 var sass         = require("metalsmith-sass");
 var uglify       = require("metalsmith-uglify");
@@ -28,6 +29,7 @@ metalsmith(__dirname)
   .source("../pages")
   .destination("../build")
   .use(layouts(config.layouts))
+  .use(inplace(config.layouts))
   .use(assets(config.assets))
   .use(sass(config.sass))
   .use(prefix())
