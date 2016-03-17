@@ -35,12 +35,6 @@ ore
 surge build
 ```
 
-**3. When asked by Surge, set your project path to your build folder location. For example:**
-
-```
-project path: ~/projects/mysite/build
-```
-
 _Et voilà._
 
 ## Complete list of plugins/packages:
@@ -67,6 +61,12 @@ Automatically add vendor prefixes to CSS.
 
 **[metalsmith-layouts](https://github.com/superwolff/metalsmith-in-place)**  
 Allows you to apply layouts to your source files.
+
+**[metalsmith-in-place](https://github.com/superwolff/metalsmith-in-place)**  
+Allows you to render templating syntax in your source files.
+
+**[metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks)**  
+Apply custom permalinks and rename files to be nested properly for static sites, basically converting about.html into about/index.html.
 
 **[metalsmith-sass](https://github.com/stevenschobert/metalsmith-sass)**  
 Convert Sass/SCSS syntax to CSS.
