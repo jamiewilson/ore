@@ -29,10 +29,10 @@ npm install && npm link
 ore
 ```
 
-**2. To deploy your site with [Surge](https://surge.sh/):**
+**2. Deploy your `build` directory with [Surge](https://surge.sh/):**
 
 ```
-deploy
+surge build
 ```
 
 **3. When asked by Surge, set your project path to your build folder location. For example:**
