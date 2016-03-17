@@ -1,0 +1,23 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  margin: 2rem;
+}
+
+pre,
+code {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 0.875rem;
+  overflow: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+pre code { padding: 0; }
+code { padding: 0.2rem 0.4rem; }
