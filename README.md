@@ -54,19 +54,19 @@ Publish web apps to a CDN with a single command and no setup required.
 ### Metalsmith Plugins
 
 **[metalsmith-assets](https://github.com/treygriffith/metalsmith-assets)**  
-Include static assets in your build. _Used to create a separate `/assets` folder._
+Allows you to put your css, img, and js assets in the `/assets` folder.
 
 **[metalsmith-autoprefixer](https://github.com/esundahl/metalsmith-autoprefixer)**  
 Automatically add vendor prefixes to CSS.
 
 **[metalsmith-layouts](https://github.com/superwolff/metalsmith-in-place)**  
-Allows you to apply layouts to your source files.
+Allows you to apply layouts, like the default `layouts/page.html`, to your pages.
 
 **[metalsmith-in-place](https://github.com/superwolff/metalsmith-in-place)**  
-Allows you to render templating syntax in your source files.
+Allows you to use Handlebars in your pages files.
 
 **[metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks)**  
-Apply custom permalinks and rename files to be nested properly for static sites, basically converting about.html into about/index.html.
+Converts about.html into about/index.html, so that `localhost:3000/about/` renders without having to add `.html` to it.
 
 **[metalsmith-sass](https://github.com/stevenschobert/metalsmith-sass)**  
 Convert Sass/SCSS syntax to CSS.
@@ -76,11 +76,6 @@ Concats/uglifies/minifies your JavaScript files.
 
 **[metalsmith-watch](https://github.com/FWeinb/metalsmith-watch)**  
 Watches for a changes and triggers rebuilds.
-
-### Misc.
-
-**[Chalk](https://github.com/chalk/chalk)**  
-Terminal string styling done right.
 
 ## Updating
 To fetch and merge the latest version of Statt without losing any customizations you've made, and to also avoid having to deal with any potential merge conflicts, stash your changes, pull, rebase, and pop your changes back on top:
