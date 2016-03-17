@@ -7,7 +7,7 @@ It uses [Browsersync](http://browsersync.io) to autoreload on file changes, sync
 
 **1. Make sure [Node](http://nodejs.org) and [npm](https://docs.npmjs.com/getting-started/installing-node) are installed.**
 
-**2. Clone the Statt repo into a new empty project folder:**
+**2. Clone this repo into a new empty project folder:**
 
 ```
 git clone https://github.com/jamiewilson/ore.git <folder-name>
