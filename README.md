@@ -1,7 +1,7 @@
 # Ore
 #### A small [Metalsmith](http://metalsmith.io) workflow for quickly throwing together little web things.
 
-It uses [Browsersync](http://browsersync.io) to autoreload on file changes, synchronize scrolls and clicks between browsers, and provide a [public URL](http://localtunnel.me) for easy cross-device development. It compiles, [autoprefixes](https://github.com/postcss/autoprefixer), minifies, and sourcemaps [SCSS](http://sass-lang.com/) and concatenates and uglifies JS. It has some default layouts and partials written in [Handlebars](http://handlebarsjs.com) and some blog posts written in [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). Easily deploy your project with a custom domain for free using [Surge](https://surge.sh).
+It uses [Browsersync](http://browsersync.io) to autoreload on file changes, synchronize scrolls and clicks between browsers, and provide a [public URL](http://localtunnel.me) for easy cross-device development. It compiles, [autoprefixes](https://github.com/postcss/autoprefixer), and minifies [SCSS](http://sass-lang.com/). Concatenates and uglifies JS. It has a default layout and page using [Handlebars](http://handlebarsjs.com). Easily deploy your project with a custom domain for free using [Surge](https://surge.sh).
 
 ## Installation
 
