@@ -43,7 +43,7 @@ _Et voilà._
 
 ## Change your site metadata
 
-```json
+```js
 {
   // Sitename used in console messages
   "siteName": "ore",
