@@ -1,0 +1,11 @@
+{
+  "siteName": "ore",
+  "siteTitle": "New Site",
+  "siteDescription": "Your new site description.",
+  "pagesDir": "pages",
+  "buildDir": "build",
+  "assetsDir": "assets",
+  "layoutsDir": "layouts",
+  "defaultLayout": "page.html",
+  "templateEngine": "handlebars"
+}

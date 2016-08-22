@@ -3,7 +3,7 @@ module.exports = {
   // the directory of our build
   server: 'build',
   // Use projectName for terminal logs
-  logPrefix: 'Ore',
+  logPrefix: 'ore',
   // Disable the Browsersync UI
   ui: false,
   // use localtunnel.me to serve public link over https
@@ -26,4 +26,4 @@ module.exports = {
     'pages/**/*',
     'assets/**/*'
   ]
-};
+}

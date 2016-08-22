@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{title}}{{#if description}} / {{description}}{{/if}}</title>
+
+  <title>{{#if title}} {{title}} {{else}} {{siteTitle}} {{/if}}</title>
+  <meta name="description" content="{{#if description}} {{description}} {{esle}} {{siteDescription}} {{/if}}">
+
   <link rel="icon" href="/img/ore-favicon.png"/>
   <link rel="stylesheet" href="/css/main.css">
 </head>
@@ -11,6 +15,6 @@
 
   {{{contents}}}
 
-  <script src="/js/main.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

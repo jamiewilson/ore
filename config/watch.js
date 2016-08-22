@@ -8,4 +8,4 @@ module.exports = {
   },
   // Disabled logs to let Browsersync do it
   log: (options) => {}
-};
+}

@@ -1,9 +1,4 @@
-body {
-  font-family: sans-serif;
-  padding: 30px;
-}
-
-code {
-  background-color: #f1f1f1;
-  padding: 3px 6px 4px;
-}
+@import 'variables';
+@import 'body';
+@import 'lists';
+@import 'code';
