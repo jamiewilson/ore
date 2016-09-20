@@ -9,7 +9,7 @@
     "clean": "NODE_ENV=clean node config/ore.js",
     "production": "NODE_ENV=production node config/ore.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.16.0",
     "handlebars": "~4.0.5",
     "metalsmith": "~2.2.0",
@@ -17,7 +17,7 @@
     "metalsmith-in-place": "~1.4.4",
     "metalsmith-layouts": "~1.6.5",
     "metalsmith-permalinks": "~0.5.0",
-    "metalsmith-sense-sass": "^2.0.0",
+    "metalsmith-sense-sass": "^1.1.0",
     "metalsmith-static": "0.0.5",
     "metalsmith-uglify": "^1.5.1",
     "metalsmith-watch": "^1.0.3"
