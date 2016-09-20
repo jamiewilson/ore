@@ -3,7 +3,7 @@ var site = require('../site')
 // http://www.browsersync.io/docs/options/
 module.exports = {
   // the directory of our build
-  server: site.buildDir,
+  server: 'build',
   // Use projectName for terminal logs
   logPrefix: site.siteName,
   // Disable the Browsersync UI
@@ -18,8 +18,8 @@ module.exports = {
   logLevel: 'info',
   // Watch these files for changes
   files: [
-    site.layoutsDir + '/**/*',
-    site.pagesDir + '/**/*',
-    site.assetsDir + '/**/*'
+    'layouts/**/*',
+    'pages/**/*',
+    'assets/**/*'
   ]
 }

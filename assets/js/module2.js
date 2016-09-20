@@ -1,2 +1,1 @@
-console.log('Depends on: ' + filename)
-var filename = 'module2.js'
+console.log('e.g. module1.js loads first, then module2.js')
