@@ -8,6 +8,7 @@ var links      = require('metalsmith-permalinks')
 var sass       = require('metalsmith-sense-sass')
 var uglify     = require('metalsmith-uglify')
 var watch      = require('metalsmith-watch')
+var misc       = require('metalsmith-static')
 
 // Build options and site config
 
@@ -21,6 +22,7 @@ var config = {
   assets:  require('./assets'),
   layouts: require('./layouts'),
   links:   require('./links'),
+  misc:    require('./misc'),
   sass:    require('./sass'),
   uglify:  require('./uglify'),
   watch:   require('./watch')
@@ -38,6 +40,7 @@ var ore = metalsmith(__dirname)
   .use(inplace(config.layouts))
   .use(assets(config.assets))
   .use(sass(config.sass))
-  .use(uglify(config.uglify));
+  .use(uglify(config.uglify))
+  .use(misc(config.misc));
 
 (production) ? ore.build(errors) : ore.use(watch(config.watch)).build(serve)

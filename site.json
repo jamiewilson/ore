@@ -7,5 +7,6 @@
   "assetsDir":       "assets",
   "layoutsDir":      "layouts",
   "defaultLayout":   "page.html",
-  "templateEngine":  "handlebars"
+  "templateEngine":  "handlebars",
+  "miscDir":         "misc"
 }
