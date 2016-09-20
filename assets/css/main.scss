@@ -1,4 +1,30 @@
 @import 'variables';
-@import 'body';
-@import 'lists';
-@import 'code';
+
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $padding;
+}
+
+body {
+  color: $darkgrey;
+  font-family: $font-stack;
+  font-size: $font-size;
+}
+
+header {
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+ul {
+  line-height: 2.5;
+  list-style-position: inside;
+  padding: 0;
+}
+
+code {
+  background: $lightgrey;
+  padding: 3px 6px 4px;
+}

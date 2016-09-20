@@ -1,4 +1,4 @@
-var site = require('./site')
+var site = require('../site')
 
 // https://github.com/superwolff/metalsmith-layouts
 module.exports = {
@@ -6,7 +6,7 @@ module.exports = {
   // https://github.com/tj/consolidate.js#supported-template-engines
   engine: site.templateEngine,
   // Where to look for the layouts
-  directory: site.layoutsDir,
+  directory: '../' + site.layoutsDir,
   // The default layout to use
   default: site.defaultLayout
 }

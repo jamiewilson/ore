@@ -1,11 +1,11 @@
 {
-  "siteName": "ore",
-  "siteTitle": "New Site",
-  "siteDescription": "Your new site description.",
-  "pagesDir": "pages",
-  "buildDir": "build",
-  "assetsDir": "assets",
-  "layoutsDir": "layouts",
-  "defaultLayout": "page.html",
-  "templateEngine": "handlebars"
+  "siteName":        "ore",
+  "siteTitle":       "Site Title",
+  "siteDescription": "Site description.",
+  "pagesDir":        "pages",
+  "buildDir":        "build",
+  "assetsDir":       "assets",
+  "layoutsDir":      "layouts",
+  "defaultLayout":   "page.html",
+  "templateEngine":  "handlebars"
 }

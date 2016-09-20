@@ -17,7 +17,7 @@ var production = require('./build').production
 var errors     = require('./build').errors
 
 var config = {
-  site:    require('./site'),
+  site:    require('../site'),
   assets:  require('./assets'),
   layouts: require('./layouts'),
   links:   require('./links'),
@@ -31,8 +31,8 @@ var config = {
 var ore = metalsmith(__dirname)
   .clean(clean || production)
   .metadata(config.site)
-  .source(config.site.pagesDir)
-  .destination(config.site.buildDir)
+  .source('../' + config.site.pagesDir)
+  .destination('../' + config.site.buildDir)
   .use(links(config.links))
   .use(layouts(config.layouts))
   .use(inplace(config.layouts))
